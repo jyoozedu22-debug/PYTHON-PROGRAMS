@@ -1,0 +1,181 @@
+#program 1 
+write a program for simple data inout using input()and formatted output using print()
+ 
+salary=int(input("enter your salary:"))
+print("my salary is",salary)
+
+output
+enter your salary:100000
+my salary is 100000
+
+
+# program 2
+implement programs for computing area and simple interest,and basic arithimatic expression 
+
+sub program 1
+
+length=float(input("enter a length:"))
+breadth=float(input("enter a breadth:"))
+area = length*breadth
+print("area is", area)
+ 
+output
+enter a length:3
+enter a breadth:4
+area is 12.0
+
+sub program 2
+
+P = float(input("Enter Principal: "))
+R = float(input("Enter Rate: "))
+T = float(input("Enter Time: "))
+
+SI = (P * R * T) / 100
+
+print("Simple Interest =", round(SI, 2))
+
+output
+Enter Principal: 45
+Enter Rate: 4
+Enter Time: 8
+Simple Interest = 14.4
+
+sub program 3
+
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+
+print("Addition =", a + b)
+print("Subtraction =", a - b)
+print("Multiplication =", a * b)
+
+if b != 0:
+    print("Division =", a / b)
+else:
+    print("Division not possible")
+
+
+
+code program for number comparison , grading systems,and decision making using is elif-else
+
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+
+if a > b:
+    print("First number is greater")
+elif b > a:
+    print("Second number is greater")
+else:
+    print("Both numbers are equal")
+
+output
+Enter first number: 4
+Enter second number: 98
+Second number is greater
+
+
+sub program
+marks = float(input("Enter your marks: "))
+
+if marks >= 90:
+    print("Grade: A+")
+elif marks >= 75:
+    print("Grade: A")
+elif marks >= 60:
+    print("Grade: B")
+elif marks >= 50:
+    print("Grade: C")
+else:
+    print("Grade: Fail")
+
+output
+Enter your marks: 99.9
+Grade: A+
+
+subprogram
+
+num = float(input("Enter a number: "))
+
+if num > 0:
+    print("Positive number")
+elif num < 0:
+    print("Negative number")
+else:
+    print("Zero")
+
+output
+
+Enter a number: 123
+Positive number
+
+4. generate multiplication tables na d compute sequence sums using for loop
+
+num = int(input("Enter a number: "))
+
+print("\nMultiplication Table:")
+for i in range(1, 11):
+    print(f"{num} x {i} = {num * i}")
+
+n = int(input("\nEnter n for sum: "))
+sum = 0
+
+for i in range(1, n + 1):
+    sum += i
+
+print("Sum =", sum)
+
+Sample Output
+Enter a number: 5
+
+Multiplication Table:
+5 x 1 = 5
+5 x 2 = 10
+5 x 3 = 15
+5 x 4 = 20
+5 x 5 = 25
+5 x 6 = 30
+5 x 7 = 35
+5 x 8 = 40
+5 x 9 = 45
+5 x 10 = 50 
+Enter n for sum: 5
+Sum = 15
+
+
+program 5
+
+implement the program such as Factorial using while loop
+
+num = int(input("Enter a number: "))
+
+fact = 1
+i = 1
+
+while i <= num:
+    fact *= i
+    i += 1
+
+print("Factorial =", fact)
+
+Sample Output
+Enter a number: 5
+Factorial = 120
+
+
+
+6.write a program to determine whether a number is Even or Odd Program
+
+num = int(input("Enter a number: "))
+
+if num % 2 == 0:
+    print("Even number")
+else:
+    print("Odd number")
+
+Sample Output
+Enter a number: 7
+Odd number
+
+
+
+
