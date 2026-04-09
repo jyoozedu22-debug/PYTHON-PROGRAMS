@@ -55,7 +55,7 @@ else:
     print("Division not possible")
 
 
-
+Porgram 3
 code program for number comparison , grading systems,and decision making using is elif-else
 
 a = float(input("Enter first number: "))
@@ -143,7 +143,6 @@ Sum = 15
 
 
 program 5
-
 implement the program such as Factorial using while loop
 
 num = int(input("Enter a number: "))
@@ -163,7 +162,8 @@ Factorial = 120
 
 
 
-6.write a program to determine whether a number is Even or Odd Program
+program6
+write a program to determine whether a number is Even or Odd Program
 
 num = int(input("Enter a number: "))
 
